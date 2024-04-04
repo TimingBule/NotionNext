@@ -256,7 +256,7 @@ const ExternalPlugin = (props) => {
         {/* 谷歌统计 */}
         {ANALYTICS_GOOGLE_ID && (<>
             <script async
-                src={`https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_GOOGLE_ID}`}
+                src={`https://gadev.timcn.eu.org/gadev.js?id=${ANALYTICS_GOOGLE_ID}`}
             />
             <script async
                 dangerouslySetInnerHTML={{
